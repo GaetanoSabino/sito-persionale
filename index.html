@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f5f0">
+    <meta name="description" content="Lo spazio personale di Gaetano Sabino: una presentazione, idee e progetti in un unico posto.">
+    <title>Gaetano Sabino — Il mio spazio sul web</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+    <header class="site-header wrapper">
+      <a class="wordmark" href="#inizio" aria-label="Gaetano Sabino, inizio">gs<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">+</span></button>
+      <nav id="navigation" aria-label="Navigazione principale">
+        <a href="#chi-sono">Chi sono</a>
+        <a href="#progetti">Progetti</a>
+        <a class="nav-contact" href="#contatti">Restiamo in contatto <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="contenuto">
+      <section class="hero wrapper" id="inizio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> CIAO, SONO GAETANO SABINO</p>
+          <h1 id="hero-title">Ogni idea ha<br>bisogno del suo<br><span class="serif">spazio.</span><span class="orange-period">*</span></h1>
+          <p class="hero-description">Questo è il mio. Un posto per presentarmi, raccogliere quello che creo e dare forma a ciò che verrà.</p>
+          <a class="button button-dark" href="#progetti">Esplora i progetti <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-topline"><span>UNO SPAZIO PERSONALE</span><span>01 / ∞</span></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <svg class="asterisk" viewBox="0 0 300 300" fill="none"><g stroke="currentColor" stroke-width="34"><path d="M150 24v252M24 150h252M61 61l178 178M61 239 239 61"/></g></svg>
+          <div class="art-caption"><span>Idee in movimento.</span><span class="art-arrow">↗</span></div>
+          <span class="art-note">CURIOSITÀ, UN PASSO ALLA VOLTA.</span>
+        </div>
+        <a class="scroll-hint" href="#chi-sono"><span aria-hidden="true">↓</span> C'è altro da scoprire</a>
+      </section>
+
+      <section class="about section-space" id="chi-sono" aria-labelledby="about-title">
+        <div class="wrapper about-grid reveal">
+          <p class="section-label"><span>01</span> / CHI SONO</p>
+          <div class="about-content">
+            <h2 id="about-title">Piacere di conoscerti.<br>Facciamo le <span class="serif">presentazioni.</span></h2>
+            <!-- Sostituisci questi paragrafi con la tua biografia e i tuoi interessi. -->
+            <p>Mi chiamo Gaetano e questa pagina è il punto di partenza del mio spazio online. Qui troveranno posto il mio percorso, le mie passioni e i progetti a cui mi dedico.</p>
+            <p class="muted">Il sito è appena nato: lo arricchirò, un'idea alla volta. Nel frattempo, puoi dare un'occhiata al mio profilo GitHub.</p>
+            <a class="text-link" href="https://github.com/GaetanoSabino">Il mio GitHub <span aria-hidden="true">↗</span></a>
+            <div class="about-details"><span>Un luogo per le idee</span><span>Un progetto in evoluzione</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects wrapper section-space" id="progetti" aria-labelledby="projects-title">
+        <div class="section-heading reveal">
+          <div><p class="section-label"><span>02</span> / PROGETTI</p><h2 id="projects-title">Dalle idee<br>alle <span class="serif">cose fatte.</span></h2></div>
+          <p>Uno spazio per i lavori e gli esperimenti.<br>I primi progetti arriveranno qui.</p>
+        </div>
+        <!-- Schede segnaposto: sostituire con progetti reali, descrizioni e link. -->
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-visual visual-web" aria-hidden="true"><span class="visual-index">01 — WEB</span><div class="mini-browser"><div class="browser-bar"><i></i><i></i><i></i></div><div class="browser-content"><span>Un'idea.<br>Una pagina.</span><div class="mini-star">✳</div><div class="mini-lines"></div></div></div><span class="visual-bottom">DAL FOGLIO BIANCO AL WEB</span></div>
+            <div class="project-info"><h3>Il prossimo progetto</h3><span class="project-status">In preparazione</span></div>
+            <p>Qui racconterò un progetto, il suo obiettivo e come ha preso forma.</p>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-visual visual-lab" aria-hidden="true"><span class="visual-index">02 — LAB</span><div class="lab-grid"></div><div class="lab-shape shape-back"></div><div class="lab-shape shape-front"></div><span class="lab-plus">+</span><span class="visual-bottom">PROVARE. IMPARARE. RIPARTIRE.</span></div>
+            <div class="project-info"><h3>Esperimenti e nuove idee</h3><span class="project-status">In preparazione</span></div>
+            <p>Un posto per le esplorazioni, le piccole scoperte e i lavori in corso.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-space" id="contatti" aria-labelledby="contact-title">
+        <div class="wrapper reveal">
+          <p class="section-label"><span>03</span> / CONTATTI</p>
+          <div class="contact-grid"><div><h2 id="contact-title">Le belle idee iniziano<br>con un <span class="serif">ciao.</span><span class="orange-period">*</span></h2><p>Vuoi seguire quello che sto creando?<br>Ci vediamo su GitHub.</p></div><a class="contact-link" href="https://github.com/GaetanoSabino" aria-label="Visita il profilo GitHub di Gaetano Sabino"><span aria-hidden="true">↗</span></a></div>
+          <a class="text-link" href="https://github.com/GaetanoSabino">github.com/GaetanoSabino <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrapper"><p>© <span id="year">2026</span> Gaetano Sabino</p><span>Fatto con cura, un dettaglio alla volta.</span><a href="#inizio">Torna su <span aria-hidden="true">↑</span></a></footer>
+  </body>
+</html>
